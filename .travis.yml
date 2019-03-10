@@ -18,8 +18,8 @@ deploy:
   api_key:
     secure: $GITHUB_TOKEN
   file:
-    - "build/foundation-curriculum_de.pdf"
-    - "build/foundation-curriculum_en.pdf"
+    - "build/template-curriculum_de.pdf"
+    - "build/template-curriculum_en.pdf"
   skip_cleanup: true
   draft: true
   overwrite: true
