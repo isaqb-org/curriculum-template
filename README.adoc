@@ -11,13 +11,21 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-*DRAFT* version!!
-
 This repository contains a template for iSAQB *curricula* in AsciiDoc.
+
+== Status
+
+*DRAFT* version: image:https://travis-ci.org/isaqb-org/curriculum-template.svg?branch=master["Build Status", link="https://travis-ci.org/isaqb-org/curriculum-template"]
+image:https://img.shields.io/github/last-commit/isaqb-org/curriculum-template/master.svg["Last commit"]
+image:https://img.shields.io/github/contributors/isaqb-org/curriculum-template.svg["Contributors",link="https://github.com/isaqb-org/curriculum-template/graphs/contributors"]
+image:https://img.shields.io/github/issues/isaqb-org/curriculum-template.svg["Issues",link="https://github.com/isaqb-org/curriculum-template/issues"]
+image:https://img.shields.io/github/issues-closed/isaqb-org/curriculum-template.svg["Issues closed",link="https://github.com/isaqb-org/curriculum-template/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aclosed+"]
+
 
 This is <<copyrighted,copyrighted work>>.
 
 
+== Content
 toc::[]
 
 == How to contribute or participate
