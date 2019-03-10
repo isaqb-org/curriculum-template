@@ -1,17 +1,18 @@
-language: minimal
+language: java
+install: true
+jdk:
+  - oraclejdk8
 
 script:
-- docker build -t isaqb-adoc2pdf --force-rm adoc2pdf/
-- ./adoc2pdf/adoc2pdf.sh ${PWD}/docs/template-curriculum.adoc DE prod
-- ./adoc2pdf/adoc2pdf.sh ${PWD}/docs/template-curriculum.adoc EN prod
+- ./gradlew renderNoRemarksDE renderNoRemarksEN
 
 deploy:
   provider: releases
   api_key:
     secure: $GITHUB_TOKEN
   file:
-    - "build/template-curriculum_DE_prod.pdf"
-    - "build/template-curriculum_EN_prod.pdf"
+    - "build/foundation-curriculum_de.pdf"
+    - "build/foundation-curriculum_en.pdf"
   skip_cleanup: true
   draft: true
   overwrite: true
