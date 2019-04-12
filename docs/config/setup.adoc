@@ -1,5 +1,6 @@
 :doctype: book
 :icons: font
+:chapter-label: 
 :sectnumlevels: 1
 
 
